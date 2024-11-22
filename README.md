@@ -1,16 +1,19 @@
-## Hi there 👋
+# 👋 Hi, I'm Tharun Chatteti  
+🔍 Master's Student in Computer Science at SUNY Buffalo, specializing in AI/ML.  
+💻 Passionate about building scalable software and solving real-world problems with ML.  
+🌟 Current Focus: Advanced Algorithms, Data Science, and Cloud Computing.  
 
-<!--
-**TharunCh-tch/TharunCh-tch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🔧 Technologies & Tools  
+- **Programming Languages**: Java, Python, SQL, JavaScript  
+- **Frameworks**: Spring Boot, React.js, TensorFlow  
+- **Cloud Platforms**: AWS, Azure, Google Cloud  
 
-Here are some ideas to get you started:
+## 📂 Featured Projects  
+- **[California Housing Price Prediction](https://github.com/tharun/california-housing-price)**: Applied regression models on census data.  
+- **[Operating System Scheduler](https://github.com/tharun/os-scheduler)**: Priority-based scheduling in OS.
+- 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📫 How to reach me:  
+- [LinkedIn](https://linkedin.com/in/tharun-ch-924440263/)  
+- Email: tharunch@buffalo.edu  
+
