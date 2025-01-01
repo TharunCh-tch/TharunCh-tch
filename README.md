@@ -1,6 +1,8 @@
 # 👋 Hi, I'm Tharun Ch
-🔍 Master's Student in Computer Science at SUNY Buffalo, specializing in Artificial Intelligence and Machine Learning.  
+📚 Master's Student in Computer Science at SUNY Buffalo, specializing in Artificial Intelligence and Machine Learning.  
 💻 Passionate about building scalable software, solving real-world problems with data-driven solutions, and exploring cloud technologies.  
+💼 Previously contributed to enterprise cloud migration projects at Ernst & Young, where I optimized performance and cost-efficiency using AWS and Azure services alongside .NET technologies.
+
 🌟 **Current Focus**: Brain-Computer Interfaces (BCI) and Neural Networks, Advanced Algorithms and Data Science, Cloud Computing and .NET Development, and Trading Algorithms including quantitative strategies, predictive modeling, and real-time decision-making.
 
 ---
