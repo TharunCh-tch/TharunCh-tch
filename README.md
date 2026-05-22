@@ -1,61 +1,70 @@
-# 👋 Hi, I'm Tharun Ch
-📚 Master's Student in Computer Science at SUNY Buffalo, specializing in Artificial Intelligence and Machine Learning.  
-💻 Passionate about building scalable software, solving real-world problems with data-driven solutions, and exploring cloud technologies.  
-💼 Previously contributed to enterprise cloud migration projects at Ernst & Young, where I optimized performance and cost-efficiency using AWS and Azure services alongside .NET technologies.
+# Hi, I'm Tharun Chatteti 👋
 
-🌟 **Current Focus**: Brain-Computer Interfaces (BCI) and Neural Networks, Advanced Algorithms and Data Science, Cloud Computing and .NET Development, and Trading Algorithms including quantitative strategies, predictive modeling, and real-time decision-making.
-
----
-
-## 🔧 Technologies & Tools  
-- **Programming Languages**: Java, Python, SQL, JavaScript  
-- **Frameworks**: Spring Boot, React.js, TensorFlow, PyTorch  
-- **Cloud Platforms**: AWS, Azure, Google Cloud  
-- **Tools & Libraries**: Scikit-learn, NumPy, Pandas, Git, Docker  
+🎓 MS in Computer Science (AI/ML) — SUNY Buffalo  
+💼 AI/ML Contractor @ Handshake | Ex-Associate Software Engineer @ Ernst & Young  
+🌎 Buffalo, NY | Open to Full-Time Roles (SWE / AI Engineer / Full-Stack)
 
 ---
 
-## 📂 Featured Projects  
-### 🏡 [California Housing Price Prediction](https://github.com/tharun/california-housing-price)  
-- Applied regression models on California census data to predict housing prices.  
-- Performed data preprocessing and feature engineering for improved accuracy.  
+## 🧠 About Me
 
-### 🛠️ [Operating System Scheduler](https://github.com/tharun/os-scheduler)  
-- Designed and implemented a priority-based scheduling algorithm for an operating system.  
-- Enhanced task efficiency by optimizing job prioritization logic.  
+I'm a full-stack software engineer with a strong AI/ML background, currently working as an AI/ML contractor contributing to LLM benchmarking and AI response evaluation systems. Previously at EY, I led AWS cloud migration assessments for 100+ enterprise applications and built scalable Java Spring Boot microservices.
 
-### 🧠 Thought-to-Text Translation Pipeline (Coming Soon)  
-- Developing a CNN and NLP-based pipeline to interpret EEG signals into meaningful text.  
-
-### 🌐 IoT-Based Smart Waste Management System (Coming Soon)  
-- Built a real-time IoT solution to optimize urban waste collection using smart sensors and cloud integration.
+I enjoy building end-to-end systems — from React frontends and REST APIs to ML pipelines and cloud deployments on AWS.
 
 ---
 
-## 🧠 Current Research Interests  
-- **Brain-Computer Interfaces (BCI):** Investigating advanced methodologies for bidirectional communication between neural systems and computational devices. Focused on decoding electroencephalographic (EEG) and other neural signals for real-time cognitive interpretation and control mechanisms.  
-- **Neural Networks:** Designing and optimizing deep learning models, including Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs), for high-dimensional neural signal processing and classification tasks. Exploring transfer learning and domain adaptation techniques for enhancing model generalizability across diverse datasets.  
-- **Signal Processing:** Delving into advanced signal denoising and feature extraction techniques, such as wavelet transforms and independent component analysis (ICA), to improve the accuracy and efficiency of neural signal interpretation. Focused on leveraging time-frequency analysis and spectral-domain methods for robust system performance in noisy environments.
-- **Neural Implants and Prosthetics:** Exploring the integration of minimally invasive neural implants for seamless interaction between brain activity and external devices. Emphasizing research on motor cortex mapping and closed-loop systems for restoring motor functions, building on Neuralink’s innovations in neural signal fidelity and bi-directional communication.  
+## 🔧 Tech Stack
+
+**Languages:** Java · Python · JavaScript (ES6+) · TypeScript · SQL  
+**AI/ML:** PyTorch · HuggingFace · LangChain · RAG · Scikit-learn · YOLOv5 · OpenCV  
+**Backend:** Spring Boot · Node.js · Express.js · FastAPI · Flask · REST APIs · Microservices  
+**Frontend:** React.js · Next.js · TypeScript · HTML5 · CSS3  
+**Cloud & DevOps:** AWS (EC2, S3, Lambda, CloudWatch) · Docker · Kubernetes · GitHub Actions · CI/CD  
+**Databases:** PostgreSQL · MongoDB · Snowflake · DynamoDB · MySQL  
 
 ---
 
-## 🏆 Certifications  
-- AWS Certified Developer Associate  
-- RESTful API with HTTP and JavaScript (Coursera)  
-- Machine Learning in Python (Udemy)  
+## 🚀 Featured Projects
+
+### 🤖 [Enterprise Knowledge Assistant (LLM + RAG)](https://github.com/TharunCh-tch/enterprise-knowledge-assistant)
+LLM-powered knowledge assistant using Retrieval-Augmented Generation. Built document ingestion pipelines with semantic vector search and HuggingFace transformer models. Exposed 5+ APIs via FastAPI.  
+`Python` `LangChain` `HuggingFace` `FastAPI` `RAG`
 
 ---
 
-## 📫 How to Reach Me  
-- **LinkedIn**: [Tharun Ch](https://linkedin.com/in/tharun-ch-924440263/)  
-- **Email**: tharunch@buffalo.edu  
-- **GitHub**: [tharunch](https://github.com/tharunch)  
+### 🎵 [AI Music Discovery Platform](https://github.com/TharunCh-tch/ai-music-discovery-platform)
+Full-stack music streaming app with an ML recommendation engine using collaborative filtering and natural language search via sentence embeddings. Deployed on AWS with JWT auth and PostgreSQL.  
+`React` `TypeScript` `Node.js` `Python` `PostgreSQL` `AWS`
 
 ---
 
-✨ *Let's innovate and collaborate on impactful projects!*  
+### 🚗 [Smart Transportation AI System](https://github.com/TharunCh-tch/smart-transportation-ai)
+Real-time emergency vehicle and license plate detection using YOLOv5, achieving 81.9% accuracy in low-light conditions. Deployed GPU-enabled Flask microservices on AWS with CloudWatch monitoring.  
+`PyTorch` `YOLOv5` `OpenCV` `Flask` `AWS`
 
+---
 
+## 💼 Experience
 
+- **AI/ML Contractor** — Handshake Coding *(Apr 2026 – Present)*  
+  LLM benchmarking (Project Helix) & AI response evaluation/annotation (Project Alloy)
 
+- **Associate Software Engineer** — Ernst & Young *(Aug 2022 – Dec 2023)*  
+  AWS migration, Java Spring Boot microservices, CI/CD pipelines, Kafka, Snowflake
+
+---
+
+## 🏆 Certifications
+
+- AWS Certified Solutions Architect – Associate
+- AWS Certified Developer – Associate
+- RESTful API with HTTP and JavaScript (Coursera)
+
+---
+
+## 📫 Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tharun%20Chatteti-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/tharun-chatteti/)
+[![Email](https://img.shields.io/badge/Email-tharun.chatteti%40gmail.com-red?style=flat&logo=gmail)](mailto:tharun.chatteti@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=flat&logo=google-chrome)](https://tharunch-tch.github.io/my-portfolio/)
