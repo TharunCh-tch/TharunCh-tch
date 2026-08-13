@@ -1,70 +1,79 @@
-# Hi, I'm Tharun Chatteti 👋
+<div align="center">
 
-🎓 MS in Computer Science (AI/ML) — SUNY Buffalo  
-💼 AI/ML Contractor @ Handshake | Ex-Associate Software Engineer @ Ernst & Young  
-🌎 Buffalo, NY | Open to Full-Time Roles (SWE / AI Engineer / Full-Stack)
+# Tharun Chatteti
+### Software Engineer — AI/ML Systems & Backend
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/tharun-chatteti)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=googlechrome&logoColor=white)](https://tharunch-tch.github.io/my-portfolio/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tharun.chatteti@gmail.com)
 
-## 🧠 About Me
+</div>
 
-I'm a full-stack software engineer with a strong AI/ML background, currently working as an AI/ML contractor contributing to LLM benchmarking and AI response evaluation systems. Previously at EY, I led AWS cloud migration assessments for 100+ enterprise applications and built scalable Java Spring Boot microservices.
+MS in Computer Science (AI/ML) from SUNY Buffalo. I build retrieval and
+evaluation systems for LLMs, and backend services that have run in
+production at enterprise scale. Currently doing benchmark-task design
+and reward-signal ranking for model training data at Handshake AI;
+previously shipped 15+ REST APIs on a Java/Spring Boot migration at EY.
 
-I enjoy building end-to-end systems — from React frontends and REST APIs to ML pipelines and cloud deployments on AWS.
-
----
-
-## 🔧 Tech Stack
-
-**Languages:** Java · Python · JavaScript (ES6+) · TypeScript · SQL  
-**AI/ML:** PyTorch · HuggingFace · LangChain · RAG · Scikit-learn · YOLOv5 · OpenCV  
-**Backend:** Spring Boot · Node.js · Express.js · FastAPI · Flask · REST APIs · Microservices  
-**Frontend:** React.js · Next.js · TypeScript · HTML5 · CSS3  
-**Cloud & DevOps:** AWS (EC2, S3, Lambda, CloudWatch) · Docker · Kubernetes · GitHub Actions · CI/CD  
-**Databases:** PostgreSQL · MongoDB · Snowflake · DynamoDB · MySQL  
+**Currently:** open to full-time Software Engineer / AI Engineer / ML
+Engineer roles.
 
 ---
 
-## 🚀 Featured Projects
+### Stack
 
-### 🤖 [Enterprise Knowledge Assistant (LLM + RAG)](https://github.com/TharunCh-tch/enterprise-knowledge-assistant)
-LLM-powered knowledge assistant using Retrieval-Augmented Generation. Built document ingestion pipelines with semantic vector search and HuggingFace transformer models. Exposed 5+ APIs via FastAPI.  
-`Python` `LangChain` `HuggingFace` `FastAPI` `RAG`
+`Python` `Java` `TypeScript` `SQL`
+`PyTorch` `LangChain` `Hugging Face` `FAISS` `YOLOv8` `scikit-learn`
+`React` `FastAPI` `Spring Boot` `Kafka` `PostgreSQL` `Docker` `AWS`
 
----
+### Projects
 
-### 🎵 [AI Music Discovery Platform](https://github.com/TharunCh-tch/ai-music-discovery-platform)
-Full-stack music streaming app with an ML recommendation engine using collaborative filtering and natural language search via sentence embeddings. Deployed on AWS with JWT auth and PostgreSQL.  
-`React` `TypeScript` `Node.js` `Python` `PostgreSQL` `AWS`
+**[Enterprise Knowledge Assistant](https://github.com/TharunCh-tch/enterprise-knowledge-assistant)**
+RAG pipeline over uploaded documents — chunking, FAISS vector search,
+HuggingFace sentence-transformer embeddings, FastAPI serving layer.
+Tested (pytest, incl. a real end-to-end retrieval test) with CI on
+every push.
+`Python` `LangChain` `FAISS` `sentence-transformers` `FastAPI`
 
----
+**[LLM Eval Harness](https://github.com/TharunCh-tch/llm-eval-harness)**
+Rubric + LLM-judge scoring, golden-patch/SWE-Bench-style comparison
+with a sandboxed test runner, pairwise response ranking via a
+from-scratch Bradley-Terry implementation, and inter-rater agreement
+metrics (Cohen's kappa, Spearman). 84 tests, results reproduced from a
+real run, committed in `results.md`.
+`Python` `LLM Evaluation` `Bradley-Terry`
 
-### 🚗 [Smart Transportation AI System](https://github.com/TharunCh-tch/smart-transportation-ai)
-Real-time emergency vehicle and license plate detection using YOLOv5, achieving 81.9% accuracy in low-light conditions. Deployed GPU-enabled Flask microservices on AWS with CloudWatch monitoring.  
-`PyTorch` `YOLOv5` `OpenCV` `Flask` `AWS`
+**[Smart Transportation AI](https://github.com/TharunCh-tch/smart-transportation-ai)**
+NYC traffic simulation (A* routing, live map) plus a real computer-vision
+module: YOLOv8 vehicle detection, OpenCV + EasyOCR plate reading, and a
+from-scratch multi-object tracker. Measured precision/recall reported
+honestly in `results.md`, including where the heuristics fall short.
+`PyTorch` `YOLOv8` `OpenCV` `FastAPI`
 
----
+**[AI Music Discovery Platform](https://github.com/TharunCh-tch/ai-music-discovery-platform)**
+React/TypeScript SPA on a FastAPI backend — JWT auth, PostgreSQL,
+mood-based semantic search (sentence-transformers), and both
+content-based and collaborative (item-based + matrix factorization)
+recommendation engines.
+`React` `TypeScript` `FastAPI` `PostgreSQL` `JWT`
 
-## 💼 Experience
+**[Order Fulfillment Service](https://github.com/TharunCh-tch/order-fulfillment-service)**
+Spring Boot microservice — REST API, Kafka event producer/consumer,
+PostgreSQL + Flyway migrations, Dockerized. JUnit 5 + Mockito +
+MockMvc test suite.
+`Java` `Spring Boot` `Kafka` `PostgreSQL` `Docker`
 
-- **AI/ML Contractor** — Handshake Coding *(Apr 2026 – Present)*  
-  LLM benchmarking (Project Helix) & AI response evaluation/annotation (Project Alloy)
+### Experience
 
-- **Associate Software Engineer** — Ernst & Young *(Aug 2022 – Dec 2023)*  
-  AWS migration, Java Spring Boot microservices, CI/CD pipelines, Kafka, Snowflake
+**AI/ML Software Engineer**, Handshake AI — *2026*
+Benchmark task design and golden-patch authoring for SWE-Bench-style
+training data; response ranking for reward-model signal.
 
----
+**Associate Software Engineer**, EY — *2022–2023*
+Cloud migration for a Fortune 500 client. 15+ REST APIs in Spring Boot
+microservices, AWS CI/CD, Kafka/RabbitMQ, Snowflake/PostgreSQL tuning.
 
-## 🏆 Certifications
-
-- AWS Certified Solutions Architect – Associate
-- AWS Certified Developer – Associate
-- RESTful API with HTTP and JavaScript (Coursera)
-
----
-
-## 📫 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tharun%20Chatteti-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/tharun-chatteti/)
-[![Email](https://img.shields.io/badge/Email-tharun.chatteti%40gmail.com-red?style=flat&logo=gmail)](mailto:tharun.chatteti@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=flat&logo=google-chrome)](https://tharunch-tch.github.io/my-portfolio/)
+### Certifications
+AWS Certified Solutions Architect – Associate · AWS Certified Developer
+– Associate · AWS Certified AI Practitioner · AWS Certified Machine
+Learning Engineer – Associate
