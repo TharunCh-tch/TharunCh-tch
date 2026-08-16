@@ -22,8 +22,8 @@ Engineer roles.
 
 ### Stack
 
-`Python` `Java` `TypeScript` `SQL`
-`PyTorch` `LangChain` `Hugging Face` `FAISS` `YOLOv8` `scikit-learn`
+`Python` `Java` `TypeScript` `SQL` `PHP`
+`PyTorch` `LangChain` `Hugging Face` `FAISS` `YOLOv8` `MediaPipe` `scikit-learn`
 `React` `FastAPI` `Spring Boot` `Kafka` `PostgreSQL` `Docker` `AWS`
 
 ### Projects
@@ -62,6 +62,20 @@ Spring Boot microservice — REST API, Kafka event producer/consumer,
 PostgreSQL + Flyway migrations, Dockerized. JUnit 5 + Mockito +
 MockMvc test suite.
 `Java` `Spring Boot` `Kafka` `PostgreSQL` `Docker`
+
+**[ASL Detection](https://github.com/TharunCh-tch/asl-detection)**
+Real-time American Sign Language recognition — MediaPipe hand-landmark
+extraction into a lightweight PyTorch MLP classifier. Trained on
+10,873 real images; 91.8% test accuracy, measured and reproducible.
+Flask API + Streamlit UI.
+`PyTorch` `MediaPipe` `OpenCV` `Flask`
+
+**[Community Cafe](https://github.com/TharunCh-tch/community-cafe)**
+Neighborhood community platform — marketplace, cart/checkout, Razorpay
+payments, visitor & amenity management. A solo modernized rebuild of a
+3-person undergrad team project, with the original's SQL-injection and
+weak-hashing issues fixed and regression-tested.
+`PHP` `MySQL` `Razorpay` `PHPUnit`
 
 ### Experience
 
