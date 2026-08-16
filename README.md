@@ -77,6 +77,14 @@ payments, visitor & amenity management. A solo modernized rebuild of a
 weak-hashing issues fixed and regression-tested.
 `PHP` `MySQL` `Razorpay` `PHPUnit`
 
+**[Emergency Vehicle CNN](https://github.com/TharunCh-tch/emergency-vehicle-cnn)**
+4-layer CNN built from scratch in PyTorch (no pretrained backbone),
+trained end-to-end on CPU on a small self-assembled, class-balanced
+dataset, with Grad-CAM visualizations. Reports real precision/recall/
+F1/ROC-AUC and an honest account of small-dataset overfitting rather
+than an inflated headline number.
+`PyTorch` `CNN` `Grad-CAM`
+
 ### Experience
 
 **AI/ML Software Engineer**, Handshake AI — *2026*
