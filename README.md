@@ -35,6 +35,8 @@ Tested (pytest, incl. a real end-to-end retrieval test) with CI on
 every push.
 `Python` `LangChain` `FAISS` `sentence-transformers` `FastAPI`
 
+<img src="https://raw.githubusercontent.com/TharunCh-tch/enterprise-knowledge-assistant/main/docs/screenshots/query-result.jpg" width="480" alt="A real query answered with retrieved source chunks and similarity scores">
+
 **[LLM Eval Harness](https://github.com/TharunCh-tch/llm-eval-harness)**
 Rubric + LLM-judge scoring, golden-patch/SWE-Bench-style comparison
 with a sandboxed test runner, pairwise response ranking via a
@@ -50,6 +52,8 @@ from-scratch multi-object tracker. Measured precision/recall reported
 honestly in `results.md`, including where the heuristics fall short.
 `PyTorch` `YOLOv8` `OpenCV` `FastAPI`
 
+<img src="https://raw.githubusercontent.com/TharunCh-tch/smart-transportation-ai/main/docs/screenshots/live-map.jpg" width="480" alt="Live NYC traffic map with fleet vehicles and congestion-colored roads">
+
 **[AI Music Discovery Platform](https://github.com/TharunCh-tch/ai-music-discovery-platform)**
 React/TypeScript SPA on a FastAPI backend — JWT auth, PostgreSQL,
 mood-based semantic search (sentence-transformers), and both
@@ -57,11 +61,15 @@ content-based and collaborative (item-based + matrix factorization)
 recommendation engines.
 `React` `TypeScript` `FastAPI` `PostgreSQL` `JWT`
 
+<img src="https://raw.githubusercontent.com/TharunCh-tch/ai-music-discovery-platform/main/docs/screenshots/mood-search.png" width="480" alt="Mood-based semantic search returning matching tracks">
+
 **[Order Fulfillment Service](https://github.com/TharunCh-tch/order-fulfillment-service)**
 Spring Boot microservice — REST API, Kafka event producer/consumer,
 PostgreSQL + Flyway migrations, Dockerized. JUnit 5 + Mockito +
 MockMvc test suite.
 `Java` `Spring Boot` `Kafka` `PostgreSQL` `Docker`
+
+<img src="https://raw.githubusercontent.com/TharunCh-tch/order-fulfillment-service/main/docs/screenshots/01-swagger-ui-overview.jpg" width="480" alt="Browsable Swagger UI listing the REST API endpoints">
 
 **[ASL Detection](https://github.com/TharunCh-tch/asl-detection)**
 Real-time American Sign Language recognition — MediaPipe hand-landmark
@@ -70,12 +78,16 @@ extraction into a lightweight PyTorch MLP classifier. Trained on
 Flask API + Streamlit UI.
 `PyTorch` `MediaPipe` `OpenCV` `Flask`
 
+<img src="https://raw.githubusercontent.com/TharunCh-tch/asl-detection/main/docs/screenshots/streamlit-prediction-B.jpg" width="480" alt="A real prediction of the letter B at 99.8% confidence">
+
 **[Community Cafe](https://github.com/TharunCh-tch/community-cafe)**
 Neighborhood community platform — marketplace, cart/checkout, Razorpay
 payments, visitor & amenity management. A solo modernized rebuild of a
 3-person undergrad team project, with the original's SQL-injection and
 weak-hashing issues fixed and regression-tested.
 `PHP` `MySQL` `Razorpay` `PHPUnit`
+
+<img src="https://raw.githubusercontent.com/TharunCh-tch/community-cafe/main/docs/screenshots/marketplace.jpg" width="480" alt="The marketplace listing with category filters and seeded products">
 
 **[Emergency Vehicle CNN](https://github.com/TharunCh-tch/emergency-vehicle-cnn)**
 4-layer CNN built from scratch in PyTorch (no pretrained backbone),
@@ -84,6 +96,8 @@ dataset, with Grad-CAM visualizations. Reports real precision/recall/
 F1/ROC-AUC and an honest account of small-dataset overfitting rather
 than an inflated headline number.
 `PyTorch` `CNN` `Grad-CAM`
+
+<img src="https://raw.githubusercontent.com/TharunCh-tch/emergency-vehicle-cnn/main/results/gradcam/gradcam_00_true-emergency_pred-emergency.jpg" width="480" alt="Grad-CAM heatmap overlay on a correctly classified emergency vehicle">
 
 ### Experience
 
