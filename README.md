@@ -4,9 +4,9 @@
 
 ### AI/ML Engineer
 
-**Generative AI · LLMs · RAG · Machine Learning · MLOps**
+**Generative AI · LLM Systems · RAG · Machine Learning · MLOps**
 
-Building production-minded AI systems from experimentation to deployment.
+Engineering AI systems from **data → evaluation → optimization → deployment**.
 
 [Portfolio](https://tharunch-tch.github.io/my-portfolio/) · [LinkedIn](https://www.linkedin.com/in/tharun-chatteti/) · [Email](mailto:tharun.chatteti@gmail.com)
 
@@ -14,137 +14,115 @@ Building production-minded AI systems from experimentation to deployment.
 
 ---
 
-## AI Engineering Focus
+## 01 // Profile
 
-I build machine learning and Generative AI systems across the full lifecycle — **data, experimentation, evaluation, retrieval, optimization, deployment, monitoring, and production reliability**.
+AI/ML Engineer working across **production machine learning, Generative AI, LLM/RAG systems, model evaluation, computer vision, NLP, model optimization, and MLOps**.
 
-My work spans LLM/RAG systems, computer vision, NLP, classification, regression, model optimization, backend services, and data platforms. I care about AI systems that are measurable, testable, deployable, and maintainable beyond the demo stage.
-
-### Core areas
-
-`Generative AI` · `LLMs` · `RAG` · `Machine Learning` · `Deep Learning` · `LLM Evaluation` · `Computer Vision` · `NLP` · `MLOps` · `Model Optimization` · `Edge AI`
-
----
-
-## Selected Engineering Impact
-
-| Area | Impact |
-|---|---|
-| Production ML | Built and evaluated **10+** production-oriented models across CV, NLP, classification, and regression |
-| Experimentation | Reduced experiment turnaround by **20%** |
-| Model optimization | Reduced model size by up to **40%** and inference latency by **25–30%** |
-| Edge inference | Improved embedded inference throughput by **15%** |
-| Reliability | Reduced production regressions by **30%** |
-| Data systems | Supported pipelines processing **10M+ records/day** |
-| Applied ML | Improved fraud precision by **18%** |
-| Operations | Reduced data-quality incidents by **25%** and MTTR by **30%** |
-
----
-
-## Featured AI Projects
-
-### Enterprise Knowledge Assistant
-**Production-oriented Retrieval-Augmented Generation system**
-
-`FastAPI` `LangChain` `Hugging Face` `FAISS` `Sentence Transformers` `Python`
-
-PDF/TXT/Markdown → Extraction → Chunking → Embeddings → FAISS → Retrieval → Generation → Source-grounded response
-
-- Multi-stage ingestion with persisted vector storage
-- `sentence-transformers/all-MiniLM-L6-v2`
-- FAISS `IndexFlatIP`
-- Configurable FLAN-T5 generation through LangChain LCEL
-- Ingestion, querying, corpus statistics, health checks, and knowledge-base management
-- Structured logging and source-grounded responses
-
-[Explore repository →](https://github.com/TharunCh-tch/enterprise-knowledge-assistant)
-
-### LLM Evaluation Harness
-**Systematic evaluation infrastructure for LLM outputs**
-
-`Python` `Click` `PyYAML` `SciPy` `Anthropic API` `Pytest`
-
-- Rubric scoring and golden-patch correctness
-- Pairwise preference ranking and LLM-as-a-judge workflows
-- Bradley-Terry ranking
-- Cohen's kappa and Spearman correlation
-- Sandboxed, timeout-controlled execution
-- **16-task** evaluation dataset
-- **84-test** Pytest suite with CI across multiple Python versions
-
-[Explore repository →](https://github.com/TharunCh-tch/llm-eval-harness)
-
-### Smart Transportation AI
-**Computer vision + intelligent transportation system**
-
-`PyTorch` `YOLOv8` `OpenCV` `EasyOCR` `FastAPI`
-
-A* routing, vehicle detection, license-plate OCR, and multi-object tracking.
-
-[Explore repository →](https://github.com/TharunCh-tch/smart-transportation-ai)
-
-### AI Music Discovery Platform
-**Semantic search + recommendation system**
-
-`React` `TypeScript` `FastAPI` `PostgreSQL` `Sentence Transformers`
-
-Mood-based semantic search with content-based recommendations, collaborative filtering, and matrix factorization.
-
-[Explore repository →](https://github.com/TharunCh-tch/ai-music-discovery-platform)
-
----
-
-## Engineering Stack
-
-**AI / Machine Learning**  
-`Python` · `PyTorch` · `TensorFlow` · `scikit-learn` · `Hugging Face` · `ONNX` · `TFLite`
-
-**Generative AI / Retrieval**  
-`LLMs` · `RAG` · `LangChain` · `FAISS` · `Embeddings` · `Semantic Search` · `LLM Evaluation`
-
-**Backend / Data**  
-`Java` · `FastAPI` · `Flask` · `Spring Boot` · `REST APIs` · `Kafka` · `SQL` · `PostgreSQL` · `Snowflake` · `ETL`
-
-**Cloud / MLOps**  
-`AWS` · `Docker` · `Kubernetes` · `Terraform` · `CI/CD` · `GitHub Actions`
-
----
-
-## How I Build
+My focus is the engineering layer between an AI prototype and a production system: reliable retrieval, rigorous evaluation, efficient inference, deployment validation, monitoring, and measurable performance.
 
 ```text
-DATA → EXPERIMENT → EVALUATE → OPTIMIZE → DEPLOY → OBSERVE → IMPROVE
+BUILD  →  EVALUATE  →  OPTIMIZE  →  DEPLOY  →  OBSERVE  →  IMPROVE
 ```
 
-Production AI is more than model accuracy. I focus on measurable tradeoffs across **quality, latency, memory, reliability, scalability, and deployment constraints**.
+---
+
+## 02 // Engineering Signals
+
+| Production ML | Model Optimization | Data & Reliability |
+| :--- | :--- | :--- |
+| **10+** ML models | **40%** smaller models | **10M+** records/day |
+| **20%** faster experiments | **25–30%** lower latency | **30%** lower MTTR |
+| **15%** higher edge throughput | accuracy within **1–2%** | **30%** fewer production regressions |
 
 ---
 
-## Education & Certifications
+## 03 // Flagship Systems
 
-**Master of Science in Computer Science — Artificial Intelligence & Machine Learning**  
-University at Buffalo, SUNY · Jan 2024 – May 2025
+### 01 — Enterprise Knowledge Assistant
+**Production-oriented Retrieval-Augmented Generation**
 
-**AWS**
-- Machine Learning Engineer – Associate
-- Solutions Architect – Associate
-- Developer – Associate
-- AI Practitioner
+`FastAPI` · `LangChain` · `Hugging Face` · `FAISS` · `Sentence Transformers`
+
+```text
+Documents
+   ↓
+Extraction → Chunking → Embeddings
+                         ↓
+                    FAISS Index
+                         ↓
+Query → Retrieval → Generation → Grounded Response
+```
+
+Multi-stage ingestion for PDF, TXT, and Markdown; `all-MiniLM-L6-v2` embeddings; FAISS `IndexFlatIP`; configurable FLAN-T5 generation through LangChain LCEL; persisted vector storage; source-cited querying; corpus statistics; knowledge-base management; health checks; structured logging.
+
+[Repository →](https://github.com/TharunCh-tch/enterprise-knowledge-assistant)
 
 ---
 
-## More Engineering Work
+### 02 — LLM Evaluation Harness
+**Evaluation infrastructure for reliable LLM development**
+
+`Python` · `Click` · `PyYAML` · `SciPy` · `Anthropic API` · `Pytest`
+
+Rubric scoring · golden-patch correctness · pairwise preference ranking · deterministic heuristics · LLM-as-a-judge · Bradley-Terry ranking · Cohen's kappa · Spearman correlation · sandboxed timeout-bound execution.
+
+**16 evaluation tasks · 84 automated tests · CI across 2 Python versions**
+
+[Repository →](https://github.com/TharunCh-tch/llm-eval-harness)
+
+---
+
+### 03 — Smart Transportation AI
+**Computer Vision · OCR · Routing · Tracking**
+
+Applied AI system combining intelligent routing, vehicle detection, license-plate OCR, and multi-object tracking.
+
+[Repository →](https://github.com/TharunCh-tch/smart-transportation-ai)
+
+### 04 — AI Music Discovery Platform
+**Semantic Search · Recommendation Systems · Full Stack**
+
+Music discovery system combining semantic retrieval with content-based and collaborative recommendation techniques.
+
+[Repository →](https://github.com/TharunCh-tch/ai-music-discovery-platform)
+
+---
+
+## 04 // AI Engineering Stack
+
+| Layer | Technologies |
+| :--- | :--- |
+| **ML / DL** | Python · PyTorch · TensorFlow · scikit-learn · Hugging Face |
+| **GenAI / Retrieval** | LLMs · RAG · LangChain · FAISS · Embeddings · Semantic Search · LLM Evaluation |
+| **Optimization** | ONNX · TFLite · Quantization · Pruning · Edge Inference |
+| **Backend** | FastAPI · Flask · Java · Spring Boot · REST APIs |
+| **Data** | SQL · PostgreSQL · Snowflake · Kafka · ETL |
+| **Cloud / MLOps** | AWS · Docker · Kubernetes · Terraform · CI/CD · GitHub Actions |
+
+---
+
+## 05 // Beyond the Flagships
 
 [Order Fulfillment Service](https://github.com/TharunCh-tch/order-fulfillment-service) · [ASL Detection](https://github.com/TharunCh-tch/asl-detection) · [Emergency Vehicle CNN](https://github.com/TharunCh-tch/emergency-vehicle-cnn) · [Community Cafe](https://github.com/TharunCh-tch/community-cafe)
 
 ---
 
+## 06 // Credentials
+
+**M.S. Computer Science — Artificial Intelligence & Machine Learning**  
+University at Buffalo, SUNY · Jan 2024 – May 2025
+
+**AWS Certified**  
+Machine Learning Engineer – Associate · Solutions Architect – Associate · Developer – Associate · AI Practitioner
+
+---
+
 <div align="center">
 
-### Build · Evaluate · Optimize · Deploy · Observe · Improve
+### Production-minded AI engineering.
 
-**AI systems should move beyond demos and into production.**
+**Evaluate rigorously. Optimize deliberately. Deploy reliably.**
 
-[Portfolio](https://tharunch-tch.github.io/my-portfolio/) · [LinkedIn](https://www.linkedin.com/in/tharun-chatteti/) · [GitHub](https://github.com/TharunCh-tch)
+[Explore Portfolio](https://tharunch-tch.github.io/my-portfolio/) · [LinkedIn](https://www.linkedin.com/in/tharun-chatteti/) · [GitHub](https://github.com/TharunCh-tch)
 
 </div>
