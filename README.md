@@ -1,115 +1,166 @@
 <div align="center">
 
 # Tharun Chatteti
-### Software Engineer — AI/ML Systems & Backend
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/tharun-chatteti)
-[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=googlechrome&logoColor=white)](https://tharunch-tch.github.io/my-portfolio/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tharun.chatteti@gmail.com)
+### AI/ML Engineer
+
+**Generative AI · LLMs · RAG · Machine Learning · MLOps**
+
+Building intelligent systems from experimentation to production.
+
+[LinkedIn](https://www.linkedin.com/in/tharun-chatteti/) • [Portfolio](https://tharunch-tch.github.io/my-portfolio/) • [Email](mailto:tharun.chatteti@gmail.com)
 
 </div>
 
-MS in Computer Science (AI/ML) from SUNY Buffalo. I build retrieval and
-evaluation systems for LLMs, and backend services that have run in
-production at enterprise scale. Currently doing benchmark-task design
-and reward-signal ranking for model training data at Handshake AI;
-previously shipped 15+ REST APIs on a Java/Spring Boot migration at EY.
+---
 
-**Currently:** open to full-time Software Engineer / AI Engineer / ML
-Engineer roles.
+## About Me
+
+AI/ML Engineer focused on building, optimizing, and productionizing machine learning and Generative AI systems.
+
+My experience spans the end-to-end ML lifecycle — data preparation, feature engineering, model development, experimentation, evaluation, inference optimization, deployment validation, monitoring, and production reliability.
+
+Currently working on production-oriented machine learning across computer vision, NLP, classification, regression, and edge AI. Previously worked on machine learning and large-scale data systems supporting fraud detection, risk scoring, forecasting, and customer analytics.
+
+I am particularly interested in **Generative AI, LLM systems, Retrieval-Augmented Generation, model evaluation, efficient inference, and production ML engineering.**
 
 ---
 
-### Stack
+## What I Work On
 
-`Python` `Java` `TypeScript` `SQL` `PHP`
-`PyTorch` `LangChain` `Hugging Face` `FAISS` `YOLOv8` `MediaPipe` `scikit-learn`
-`React` `FastAPI` `Spring Boot` `Kafka` `PostgreSQL` `Docker` `AWS`
+- Generative AI & Large Language Models
+- Retrieval-Augmented Generation (RAG)
+- Machine Learning & Deep Learning
+- Natural Language Processing
+- Computer Vision
+- LLM Evaluation
+- Embeddings & Vector Search
+- Model Optimization & Efficient Inference
+- Edge AI
+- MLOps & Model Deployment
+- Production AI Systems
+- Data Engineering
 
-### Projects
+---
 
-**[Enterprise Knowledge Assistant](https://github.com/TharunCh-tch/enterprise-knowledge-assistant)**
-RAG pipeline over uploaded documents — chunking, FAISS vector search,
-HuggingFace sentence-transformer embeddings, FastAPI serving layer.
-Tested (pytest, incl. a real end-to-end retrieval test) with CI on
-every push.
-`Python` `LangChain` `FAISS` `sentence-transformers` `FastAPI`
+## Tech Stack
 
-<img src="https://raw.githubusercontent.com/TharunCh-tch/enterprise-knowledge-assistant/main/docs/screenshots/query-result.jpg" width="480" alt="A real query answered with retrieved source chunks and similarity scores">
+### AI / Machine Learning
 
-**[LLM Eval Harness](https://github.com/TharunCh-tch/llm-eval-harness)**
-Rubric + LLM-judge scoring, golden-patch/SWE-Bench-style comparison
-with a sandboxed test runner, pairwise response ranking via a
-from-scratch Bradley-Terry implementation, and inter-rater agreement
-metrics (Cohen's kappa, Spearman). 84 tests, results reproduced from a
-real run, committed in `results.md`.
-`Python` `LLM Evaluation` `Bradley-Terry`
+`Python` `PyTorch` `TensorFlow` `scikit-learn` `Hugging Face` `LangChain` `FAISS` `ONNX` `TFLite`
 
-**[Smart Transportation AI](https://github.com/TharunCh-tch/smart-transportation-ai)**
-NYC traffic simulation (A* routing, live map) plus a real computer-vision
-module: YOLOv8 vehicle detection, OpenCV + EasyOCR plate reading, and a
-from-scratch multi-object tracker. Measured precision/recall reported
-honestly in `results.md`, including where the heuristics fall short.
-`PyTorch` `YOLOv8` `OpenCV` `FastAPI`
+### Generative AI
 
-<img src="https://raw.githubusercontent.com/TharunCh-tch/smart-transportation-ai/main/docs/screenshots/live-map.jpg" width="480" alt="Live NYC traffic map with fleet vehicles and congestion-colored roads">
+`LLMs` `RAG` `Embeddings` `Semantic Search` `Vector Databases` `LLM Evaluation` `Prompt Engineering`
 
-**[AI Music Discovery Platform](https://github.com/TharunCh-tch/ai-music-discovery-platform)**
-React/TypeScript SPA on a FastAPI backend — JWT auth, PostgreSQL,
-mood-based semantic search (sentence-transformers), and both
-content-based and collaborative (item-based + matrix factorization)
-recommendation engines.
-`React` `TypeScript` `FastAPI` `PostgreSQL` `JWT`
+### Backend & Data
 
-<img src="https://raw.githubusercontent.com/TharunCh-tch/ai-music-discovery-platform/main/docs/screenshots/mood-search.png" width="480" alt="Mood-based semantic search returning matching tracks">
+`FastAPI` `Flask` `Java` `Spring Boot` `REST APIs` `SQL` `Kafka` `PostgreSQL` `Snowflake` `ETL`
 
-**[Order Fulfillment Service](https://github.com/TharunCh-tch/order-fulfillment-service)**
-Spring Boot microservice — REST API, Kafka event producer/consumer,
-PostgreSQL + Flyway migrations, Dockerized. JUnit 5 + Mockito +
-MockMvc test suite.
-`Java` `Spring Boot` `Kafka` `PostgreSQL` `Docker`
+### Cloud & MLOps
 
-<img src="https://raw.githubusercontent.com/TharunCh-tch/order-fulfillment-service/main/docs/screenshots/01-swagger-ui-overview.jpg" width="480" alt="Browsable Swagger UI listing the REST API endpoints">
+`AWS` `Docker` `Kubernetes` `Terraform` `CI/CD` `Git` `GitHub Actions`
 
-**[ASL Detection](https://github.com/TharunCh-tch/asl-detection)**
-Real-time American Sign Language recognition — MediaPipe hand-landmark
-extraction into a lightweight PyTorch MLP classifier. Trained on
-10,873 real images; 91.8% test accuracy, measured and reproducible.
-Flask API + Streamlit UI.
-`PyTorch` `MediaPipe` `OpenCV` `Flask`
+---
 
-<img src="https://raw.githubusercontent.com/TharunCh-tch/asl-detection/main/docs/screenshots/streamlit-prediction-B.jpg" width="480" alt="A real prediction of the letter B at 99.8% confidence">
+## Featured Projects
 
-**[Community Cafe](https://github.com/TharunCh-tch/community-cafe)**
-Neighborhood community platform — marketplace, cart/checkout, Razorpay
-payments, visitor & amenity management. A solo modernized rebuild of a
-3-person undergrad team project, with the original's SQL-injection and
-weak-hashing issues fixed and regression-tested.
-`PHP` `MySQL` `Razorpay` `PHPUnit`
+### Enterprise Knowledge Assistant
 
-<img src="https://raw.githubusercontent.com/TharunCh-tch/community-cafe/main/docs/screenshots/marketplace.jpg" width="480" alt="The marketplace listing with category filters and seeded products">
+Production-oriented Retrieval-Augmented Generation system for querying enterprise documents using natural language.
 
-**[Emergency Vehicle CNN](https://github.com/TharunCh-tch/emergency-vehicle-cnn)**
-4-layer CNN built from scratch in PyTorch (no pretrained backbone),
-trained end-to-end on CPU on a small self-assembled, class-balanced
-dataset, with Grad-CAM visualizations. Reports real precision/recall/
-F1/ROC-AUC and an honest account of small-dataset overfitting rather
-than an inflated headline number.
-`PyTorch` `CNN` `Grad-CAM`
+**Highlights**
+- Built an end-to-end RAG pipeline for PDF, TXT, and Markdown documents
+- Designed multi-stage ingestion for extraction, chunking, embedding generation, indexing, and persistent vector storage
+- Implemented semantic retrieval using `sentence-transformers/all-MiniLM-L6-v2` and FAISS `IndexFlatIP`
+- Integrated configurable FLAN-T5 generation through LangChain LCEL
+- Developed FastAPI endpoints for ingestion, querying, corpus statistics, and knowledge-base management
+- Added source-grounded responses, structured logging, and health monitoring
 
-<img src="https://raw.githubusercontent.com/TharunCh-tch/emergency-vehicle-cnn/main/results/gradcam/gradcam_00_true-emergency_pred-emergency.jpg" width="480" alt="Grad-CAM heatmap overlay on a correctly classified emergency vehicle">
+**Tech:** `FastAPI` `LangChain` `Hugging Face` `FAISS` `Sentence Transformers` `Python`
 
-### Experience
+---
 
-**AI/ML Software Engineer**, Handshake AI — *2026*
-Benchmark task design and golden-patch authoring for SWE-Bench-style
-training data; response ranking for reward-model signal.
+### LLM Evaluation Harness
 
-**Associate Software Engineer**, EY — *2022–2023*
-Cloud migration for a Fortune 500 client. 15+ REST APIs in Spring Boot
-microservices, AWS CI/CD, Kafka/RabbitMQ, Snowflake/PostgreSQL tuning.
+Evaluation framework for systematically measuring and comparing LLM outputs across multiple evaluation strategies.
 
-### Certifications
-AWS Certified Solutions Architect – Associate · AWS Certified Developer
-– Associate · AWS Certified AI Practitioner · AWS Certified Machine
-Learning Engineer – Associate
+**Highlights**
+- Implemented rubric-based scoring, golden-patch correctness, pairwise preference ranking, and inter-rater agreement
+- Combined deterministic evaluation with LLM-as-a-judge workflows
+- Built keyword, regex, structure, length, and numerical validation mechanisms
+- Implemented Bradley-Terry ranking for pairwise model comparisons
+- Added Cohen's kappa and Spearman correlation for agreement analysis
+- Developed sandboxed, timeout-controlled execution for code evaluation
+- Built a 16-task evaluation dataset with an 84-test Pytest suite
+- Configured CI validation across multiple Python versions
+
+**Tech:** `Python` `LLM Evaluation` `Anthropic API` `SciPy` `Pytest` `PyYAML` `GitHub Actions`
+
+---
+
+## Engineering Philosophy
+
+```text
+Build → Evaluate → Optimize → Deploy → Monitor → Improve
+```
+
+I enjoy working at the intersection of **machine learning research and production engineering** — turning models and AI prototypes into reliable systems that can operate under real-world performance, scalability, and deployment constraints.
+
+---
+
+## Areas of Interest
+
+```text
+Generative AI        ████████████████████
+LLM Systems           ████████████████████
+RAG & Retrieval       ████████████████████
+Machine Learning      ████████████████████
+Model Optimization    ███████████████████░
+MLOps                 ███████████████████░
+Computer Vision       ██████████████████░░
+NLP                   ██████████████████░░
+```
+
+---
+
+## Education
+
+**Master of Science in Computer Science**  
+**Artificial Intelligence & Machine Learning**  
+University at Buffalo, State University of New York  
+January 2024 – May 2025
+
+---
+
+## Certifications
+
+- AWS Certified Machine Learning Engineer – Associate
+- AWS Certified Solutions Architect – Associate
+- AWS Certified Developer – Associate
+- AWS Certified AI Practitioner
+
+---
+
+## Currently Exploring
+
+- Production-grade LLM and RAG architectures
+- LLM evaluation and reliability
+- Agentic AI workflows
+- Efficient model inference
+- Model optimization for resource-constrained environments
+- AI observability and production monitoring
+
+---
+
+<div align="center">
+
+### Let's Connect
+
+[LinkedIn](https://www.linkedin.com/in/tharun-chatteti/) • [Portfolio](https://tharunch-tch.github.io/my-portfolio/) • [GitHub](https://github.com/TharunCh-tch) • [Email](mailto:tharun.chatteti@gmail.com)
+
+<br>
+
+**Building AI systems that move beyond demos and into production.**
+
+</div>
